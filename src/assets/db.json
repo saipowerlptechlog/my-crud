@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "name": "sai kumar",
+      "title": "angular",
+      "Auther": "something",
+      "id": 1
+    },
+    {
+      "idd": "11",
+      "name": "sai",
+      "title": "gg",
+      "Auther": "ffsssssss1",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "chandu",
+      "title": "sd",
+      "Auther": "sa"
+    }
+  ]
+}

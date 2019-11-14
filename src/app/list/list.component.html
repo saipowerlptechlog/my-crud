@@ -1,0 +1,32 @@
+<!-- <button ></button> -->
+
+<button ><a routerLink="/add" routerLinkActive="active"> add</a></button>
+<div class="container">
+    <h2>Crud Operation</h2>
+        
+    <table class="table">
+      <thead>
+        <tr >
+          <th>id</th>
+          <th>Name</th>
+          <th>Title</th>
+          <th>Domain</th>
+          <th>delete</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of display ;let i =index  ">
+          <td>{{i+1}}</td>
+          <td>{{item.name}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.Auther}}</td>
+          <td> <button  (click)="delt(item.id)">Delete</button></td>
+        <td> <button routerLink="/edit/{{item.id}}" >Edit</button></td>
+
+        </tr>
+       
+        
+      </tbody>
+    </table>
+  </div>

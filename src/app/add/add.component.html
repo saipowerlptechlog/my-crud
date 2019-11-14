@@ -1,0 +1,23 @@
+<form [formGroup]="profileForm" >
+
+
+  
+    <label>
+        Name:
+        <input type="text" formControlName="name" >
+      </label>
+    <br><br>
+      <label>
+        Title:
+        <input type="text" formControlName="title">
+      </label>
+      <br><br>
+      <label>
+        Auther:
+        <input type="text" formControlName="Auther" >
+      </label>
+      <br><br>
+<button (click)="submit()">Submit</button>
+
+</form>
+
